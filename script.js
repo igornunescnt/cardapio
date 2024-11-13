@@ -163,9 +163,7 @@ checkoutBtn.addEventListener("click", function(){
     const message = encodeURIComponent(cartItems)
     const phone ="61999822652"
 
-    setInterval(function(){
         window.open(`https://wa.me/${phone}?text=${message} Endereço: ${addressInput.value}`, "blank")
-    },1500)
    
 
     Toastify({
